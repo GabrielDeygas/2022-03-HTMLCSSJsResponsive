@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buttonNavbar.addEventListener('click', () => {
 
-        let navbar = document.getElementById('tesGrandsMorts');
+        let navbar = document.getElementById('navnav');
         let allSite = document.getElementById('all-site');
         if (navbar.classList.contains('opened-nav')) {
             navbar.classList.remove('opened-nav');
