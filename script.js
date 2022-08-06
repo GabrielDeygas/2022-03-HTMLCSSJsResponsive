@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let hasError = false;
         let regName = new RegExp('^[a-zA-Z -]{1,30}$');
-        let regMail = new RegExp('^[a-z]+@[a-zA-Z_]+\.[a-zA-Z]{2,3}$');
+        let regMail = new RegExp('^[a-z0-9]+@[a-zA-Z_]+\.[a-zA-Z]{2,3}$');
 
         
         if( !regName.test( formNameValue ) ) {
